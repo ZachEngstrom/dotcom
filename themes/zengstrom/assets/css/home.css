@@ -1,0 +1,35 @@
+/* 
+Contact Page Styling 
+Created by Zach E.
+*/
+
+.homePanelBlue {
+  background-color:#000;
+  width:100%;
+  height:470px;
+  text-align:center;
+    margin:0px;
+  display:inline-block;
+  }
+  
+.dblogoHome {
+  background-image:url(../img/zelogo_home.png);
+  background-size:169px 121px;
+  background-repeat:no-repeat;
+  width:169px;
+  height:121px;
+  margin:200px auto 0px auto;
+  }
+  
+.hometxt_holder{
+  width:550px;
+  text-align:center;
+  margin:20px auto;
+  }
+
+.homeintrotxt{
+  font-family:'Lato', Arial, Helvetica, sans-serif;
+  font-size:24px;
+  font-weight:100;
+  color:#FFF;
+  }

@@ -88,46 +88,8 @@ margin: -34px 0 0 0;
   color:#FFF;
 }
 
-/* --- Home Page ---  */
-.homePanelBlue {
-  background-color:#0078ff;
-  width:100%;
-  height:470px;
-  text-align:center;
-    margin:0px;
-  display:inline-block;
-  }
-  
-.dblogoHome {
-  background-image:url(../img/zelogo_home.png);
-/*background-image:url(http://www.placehold.it/169x121/0078ff/ffffff);*/
-/*border: 1px solid #ffffff;*/
-  background-size:169px 121px;
-  background-repeat:no-repeat;
-  width:169px;
-  height:121px;
-  margin:200px auto 0px auto;
-  }
-  
-.hometxt_holder{
-  width:550px;
-  text-align:center;
-  margin:20px auto;
-  }
-
-.homeintrotxt{
-  font-family:'Lato', Arial, Helvetica, sans-serif;
-  font-size:24px;
-  font-weight:100;
-  color:#FFF;
-  }
-
-
-
-
 /* --- About me ---  */
 .aboutprofilepic {
-/*   background-image:url(../img/about_profile.png); */
   background-image: url(http://www.placehold.it/161x213/e6e6e6/0078ff);
   border: 1px solid #0078ff;
   width:161px;

@@ -7,6 +7,7 @@
 /* Add your CSS files to this array (THESE ARE ONLY EXAMPLES) */
 $cssFiles = array(
   "default.css",
+  "home.css",
   "nav.css",
   "contact.css",
   "smartphone.css",

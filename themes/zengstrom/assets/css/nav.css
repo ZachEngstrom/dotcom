@@ -1,4 +1,8 @@
-/********************* Home (home.php) *********************/
+/* 
+Navigation Styling 
+Original Theme Code - Some Edited by Zach E.
+*/
+
 .subnavholder li, .homenavholder li, .navmobileholder li, .subnavholdermobile li {list-style-type:none;}
 
 .homenavholder{

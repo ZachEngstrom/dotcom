@@ -4,10 +4,9 @@ thumbs.db
 __MACOSX
 ._*
 
-# ignore the site.php
+# ignore these website files
 /config/site.php
-
-#ignore everything but the index.html
+/languages/*
 /files/*
 
 # ignore the error log and .htaccess and others

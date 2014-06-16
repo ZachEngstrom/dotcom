@@ -55,7 +55,7 @@
                 return n;
             };
             this.leadingZeros = function (e, t) {
-                if (t == null) {
+                if (t === null) {
                     t = 2;
                 }
                 e = String(e);
@@ -80,7 +80,7 @@
                 return i;
             };
             this.start = function (t) {
-                if (t == null) {
+                if (t === null) {
                     t = i.options.refresh || e.countdown.defaultOptions.refresh;
                 }
                 if (i.interval) {

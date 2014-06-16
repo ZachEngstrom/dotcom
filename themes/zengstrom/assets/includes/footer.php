@@ -27,19 +27,18 @@
 	</div>
 </div>
 <script type="text/javascript">
-
-$(document).ready(function(){
-
-
-    $(".slidingDiv").hide();
-	$(".show_hide").show();
+	$(document).ready(function(){
 	
-	$('.show_hide').click(function(){
-	$(".slidingDiv").slideToggle();
+	
+	    $(".slidingDiv").hide();
+		$(".show_hide").show();
+		
+		$('.show_hide').click(function(){
+		$(".slidingDiv").slideToggle();
+		});
+	
 	});
-
-});
-
+	
 </script>
 <?php Loader::element('footer_required'); ?>
 </body>

@@ -1,30 +1,7 @@
 <?php defined('C5_EXECUTE') or die("Access Denied."); ?>
 <?php Loader::library('authentication/open_id');?>
 <?php $form = Loader::helper('form'); ?>
-<style>
-#wrapper {
-min-height: 80%;
-height: 0; !important;
-height: 0; !important;
-margin: 0 auto -100px;
-}
-.content {
-	max-width:768px;
-	width: 100%;
-	margin:0 auto;
-	padding: 75px 0 0 0 !important;
-}
-/* .push {
-	height: 100px;
-	margin: -100px 0 0 0;
-}
-#footer {
-	height: 100px;
-	margin: -100px 0 0 0;
-} */
-</style>
-<div id="wrapper">
-	<div class="content">
+
 <script type="text/javascript">
 $(function() {
 	$("input[name=uName]").focus();
@@ -300,9 +277,6 @@ $(function() {
 </div>
 </div>
 </div>
-</div> <!-- /.content -->
-</div> <!-- /#wrapper -->
-<div class="push"></div>
 <?php } ?>
 
 <?php } ?>

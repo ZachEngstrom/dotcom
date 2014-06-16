@@ -4,298 +4,317 @@ Original Theme Code
 */
 
 /* 768 */
-@media (min-width: 661px) and (max-width: 768px){
+@media (min-width: 661px) and (max-width: 768px) {
 /* --- Home Page ---  */
-.homenav:hover,.homenav:focus{
-	background-color:#efefef;	
-}
-.homenavtxt{
-	visibility:visible;
+	.homenav:hover,.homenav:focus {
+		background-color: #efefef;
 	}
-.homeicon_about{
-	margin:10px auto 0px auto;
-}
-.homeicon_work{
-	margin:10px auto 0px auto;
-}
-.homeicon_email{
-	margin:10px auto 0px auto;
-}
-.homeicon_cv{
-	margin:10px auto 0px auto;
-}
 
-.homePanelBlue {
-	height:390px;
+	.homenavtxt {
+		visibility: visible;
 	}
-	
-.dblogoHome {
-	margin:100px auto 0px auto;
+
+	.homeicon_about {
+		margin: 10px auto 0px auto;
+	}
+
+	.homeicon_work {
+		margin: 10px auto 0px auto;
+	}
+
+	.homeicon_email {
+		margin: 10px auto 0px auto;
+	}
+
+	.homeicon_cv {
+		margin: 10px auto 0px auto;
+	}
+
+	.homePanelBlue {
+		height: 390px;
+	}
+
+	.dblogoHome {
+		margin: 100px auto 0px auto;
 	}
 	
 /* --- About me ---  */
-.fivethingsheader{
-	margin-top:40px;
+	.fivethingsheader {
+		margin-top: 40px;
 	}
-.fivebgholder{
-	display:none;
-}
 
-.fivebgholdermobile{
-	display:block;
-}
+	.fivebgholder {
+		display: none;
+	}
 
-.timelineholder{
-	margin:40px auto;
-}
+	.fivebgholdermobile {
+		display: block;
+	}
+
+	.timelineholder {
+		margin: 40px auto;
+	}
 
 /* --- work ---*/
-.portilistholder{
-	width:640px;
-}
-.workenddivider{
-	width:630px;
-}
-.portiitemholder{
-	margin:50px 20px 0px 20px;
-}
-.workimgintro{
-margin:125px auto 0px auto;
-width:100%;
-height:189px;
-background-size:90%;
-}
-.workheaderbg{
-height:350px;
-}
+	.portilistholder {
+		width: 640px;
+	}
+
+	.workenddivider {
+		width: 630px;
+	}
+
+	.portiitemholder {
+		margin: 50px 20px 0px 20px;
+	}
+
+	.workimgintro {
+		margin: 125px auto 0px auto;
+		width: 100%;
+		height: 189px;
+		background-size: 90%;
+	}
+
+	.workheaderbg {
+		height: 350px;
+	}
 
 /* --- 2ndary nav --- */
-.subnavholder{
-	width:100%;
-	height:79px;
-}
+	.subnavholder {
+		width: 100%;
+		height: 79px;
+	}
 
-.subnavitembg{
-	width:100px;
-	text-align:center;
-}
-.subnavitembginactive{
-	width:100px;
-	text-align:center;
-}
+	.subnavitembg {
+		width: 100px;
+		text-align: center;
+	}
 
-.subnavtxt_inactive{
-	display:none;
-}
+	.subnavitembginactive {
+		width: 100px;
+		text-align: center;
+	}
 
-.subnavtxt{
-	display:none;
-}
+	.subnavtxt_inactive {
+		display: none;
+	}
 
-.logosmall{
-	margin:20px 0px 0px 30px;
-}
+	.subnavtxt {
+		display: none;
+	}
 
-.subnav_about_inactive{
-	margin:20px auto;
-	float:none;
-}
+	.logosmall {
+		margin: 20px 0px 0px 30px;
+	}
 
-.subnav_about{
-	margin:20px auto;
-	float:none;
-}
+	.subnav_about_inactive {
+		margin: 20px auto;
+		float: none;
+	}
 
-.subnav_work_inactive{
-	margin:20px auto;
-	float:none;
-}
+	.subnav_about {
+		margin: 20px auto;
+		float: none;
+	}
 
-.subnav_work{
-	margin:20px auto;
-	float:none;
-}
+	.subnav_work_inactive {
+		margin: 20px auto;
+		float: none;
+	}
 
-.subnav_email{
-	margin:20px auto;
-	float:none;
-}
+	.subnav_work {
+		margin: 20px auto;
+		float: none;
+	}
 
-.subnav_cv{
-	margin:20px auto;
-	float:none;
-}
+	.subnav_email {
+		margin: 20px auto;
+		float: none;
+	}
+
+	.subnav_cv {
+		margin: 20px auto;
+		float: none;
+	}
 
 /*--- Project ---*/
 
-.projectaboutholder{
-	width:640px;
-}
-
+	.projectaboutholder {
+		width: 640px;
+	}
 }
 
 /* 480 */
-@media (min-width: 481px) and (max-width: 660px){
-.headlineWhite_l{
-	font-size:40px;
-	font-weight:300;
+@media (min-width: 481px) and (max-width: 660px) {
+	.headlineWhite_l {
+		font-size: 40px;
+		font-weight: 300;
 	}
 
-.headlineWhite_m{
-	font-size:18px;
-	font-weight:300;
-}
+	.headlineWhite_m {
+		font-size: 18px;
+		font-weight: 300;
+	}
 /* --- Home Page ---  */
-.homePanelBlue {
-	height:370px;
+	.homePanelBlue {
+		height: 370px;
 	}
-	
-.dblogoHome {
-	background-image:url(../images/dblogo_home.png);
-	background-size:135px 97px;
-	width:135px;
-	height:97px;
-	margin:100px auto 0px auto;
-	}
-	
-.hometxt_holder{
-	width:80%;
-	margin:10px auto;
-	}
-.introtxt{
-	font-size:20px;;
-	}
-	
-.homenavholder{
-	display:none;
-}
 
-.navmobileholder{
-	display:block;	
-}
+	.dblogoHome {
+		background-image: url(../images/dblogo_home.png);
+		background-size: 135px 97px;
+		width: 135px;
+		height: 97px;
+		margin: 100px auto 0px auto;
+	}
 
-.homeintrotxt{
-	font-weight:300;
-	font-size:20px;
+	.hometxt_holder {
+		width: 80%;
+		margin: 10px auto;
+	}
+
+	.introtxt {
+		font-size: 20px;
+		;
+	}
+
+	.homenavholder {
+		display: none;
+	}
+
+	.navmobileholder {
+		display: block;
+	}
+
+	.homeintrotxt {
+		font-weight: 300;
+		font-size: 20px;
 	}
 	
 /* --- About me ---  */
-.aboutPanel {
-	height:400px;
-}
-.aboutprofilepic {
-	margin:110px auto 0px auto;
+	.aboutPanel {
+		height: 400px;
 	}
-.fivethingsheader{
-	height:70px;
-	margin-top:80px;
+
+	.aboutprofilepic {
+		margin: 110px auto 0px auto;
 	}
-.fivebgholder{
-	display:none;
-}
 
-.fivebgholdermobile{
-	display:block;
-}
-
-.fivecentermobile{
-	width:400px; 
-	height:100px;
+	.fivethingsheader {
+		height: 70px;
+		margin-top: 80px;
 	}
-.fivetxtmobile1{
- font-size:20px;
- height: 95px;
- width:300px;
- margin:5px 0px 0px 20px;
-}
 
-.fivetxtmobile2{
- font-size:20px;
- font-weight:300;
- height: 95px;
- width:300px;
- margin:5px 0px 0px 20px;
-}
+	.fivebgholder {
+		display: none;
+	}
 
-.timelineholder{
-	display:none;
-}
+	.fivebgholdermobile {
+		display: block;
+	}
 
-.toolsholder{
-	display:none;
-}
+	.fivecentermobile {
+		width: 400px;
+		height: 100px;
+	}
+
+	.fivetxtmobile1 {
+		font-size: 20px;
+		height: 95px;
+		width: 300px;
+		margin: 5px 0px 0px 20px;
+	}
+
+	.fivetxtmobile2 {
+		font-size: 20px;
+		font-weight: 300;
+		height: 95px;
+		width: 300px;
+		margin: 5px 0px 0px 20px;
+	}
+
+	.timelineholder {
+		display: none;
+	}
+
+	.toolsholder {
+		display: none;
+	}
 
 /* --- work ---*/
-.workholder{
-	display:none;
-}
+	.workholder {
+		display: none;
+	}
 
-.workmobileholder{
-	display:block;
-}
+	.workmobileholder {
+		display: block;
+	}
 
-.worksubtitle{
-	margin-top:0px;
-}
-.worktitle{
-	font-size:14px;
-}
+	.worksubtitle {
+		margin-top: 0px;
+	}
 
-.workimgholder{
-	margin-bottom:5px;
-}
+	.worktitle {
+		font-size: 14px;
+	}
+
+	.workimgholder {
+		margin-bottom: 5px;
+	}
 
 /* --- mobile projects --- */
-.projectpageholder{
-	display:none;
-}
+	.projectpageholder {
+		display: none;
+	}
 
-.mobileprojectpage{
-	display:block;
-}
+	.mobileprojectpage {
+		display: block;
+	}
 
 /* --- Footer --- */
-.footerbtnsholderhome{
-	margin:294px auto 0px auto;
-}
-.footertxtholder{
-width:80%; 
-margin:0px auto 40px auto ; 
-}
+	.footerbtnsholderhome {
+		margin: 294px auto 0px auto;
+	}
+
+	.footertxtholder {
+		width: 80%;
+		margin: 0px auto 40px auto;
+	}
 
 /* --- 2ndary nav --- */
-.subnavbar{
-	height:60px; 
+	.subnavbar {
+		height: 60px;
 	}
-	
-.subnavholder{
-	width:100%;
-	height:59px;
-}
-.logosmall{
-	width:106px;
-	height:34px;
-	background-size:106px 68px;
-	margin:15px 0px 0px 20px;
-}
 
-.subnavitembg{
-	display:none;
-}
-.subnavitembginactive{
-	display:none;
-}
+	.subnavholder {
+		width: 100%;
+		height: 59px;
+	}
 
-.logosmall{
-	display:none;
-}
-.logosmallmobile{
-	display:block;
-}
+	.logosmall {
+		width: 106px;
+		height: 34px;
+		background-size: 106px 68px;
+		margin: 15px 0px 0px 20px;
+	}
 
-.subnavholdermobile{
-	display:block;	
-}
+	.subnavitembg {
+		display: none;
+	}
 
-}
+	.subnavitembginactive {
+		display: none;
+	}
 
+	.logosmall {
+		display: none;
+	}
+
+	.logosmallmobile {
+		display: block;
+	}
+
+	.subnavholdermobile {
+		display: block;
+	}
+}

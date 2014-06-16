@@ -4,12 +4,14 @@
  * <link rel="stylesheet" type="text/css" media="screen, print, projection" href="/css/compressed.css.php" />
  */
  
-/* Add your CSS files to this array (THESE ARE ONLY EXAMPLES) */
+/* Add your CSS files to this array */
 $cssFiles = array(
   "default.css",
   "home.css",
   "nav.css",
   "contact.css",
+  "blog.css",
+  "login.css",
   "smartphone.css",
   "tablet.css"
 );

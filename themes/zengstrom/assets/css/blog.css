@@ -1,0 +1,101 @@
+/* 
+Contact Page Styling 
+Created by Zach E.
+*/
+
+#blog .article {
+	color: #333;
+	display: block;
+	font-family: 'Proxima Nova Regular', 'Segoe UI', Roboto, 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 0;
+	padding: 8px 32px;
+}
+#blog .article h2 {
+	margin-bottom: 0;
+	padding:16px 0 6px 0;
+	margin-top:0;
+	border-top: 5px solid #41B7D8;
+}
+ #blog .article h2 > a {
+	margin-bottom: 0;
+	padding:16px 0 0 0;
+	text-decoration:none;
+	color:#000;
+}
+#blog .article h2 > a:hover {
+	text-decoration:underline;
+}
+#blog .article h3 {
+	font-family: 'Skolar Bold', 'Segoe UI Bold', 'Roboto Slab', 'Droid Serif', AvenirNext-Bold, 'Avenir Bold', Georgia, 'Times New Roman', Times, serif;
+	font-size: 24px;
+	font-weight: bold;
+	height: 31px;
+	line-height: 31px;
+	margin-bottom: 0;
+	padding:30px 0 0 0;
+	border-top: 1px solid #000;
+	clear:both;
+}
+#blog .article ul {
+	list-style-type: none;
+	margin-bottom: 0;
+	padding: 0;
+	position: relative;
+	width:400px;
+}
+#blog .article ul > li {
+	list-style-type: none;
+	margin-bottom: 0;
+	padding: 0 10px 10px 10px;
+	position: relative;
+	float:left;
+	line-height:20px;
+}
+#blog .article li > a {
+	-webkit-tap-highlight-color: rgba(229, 59, 44, 0.4);
+	color: #41B7D8;
+	cursor: auto;
+	display: inline;
+	font-family: 'Skolar Regular', 'Roboto Slab', 'Droid Serif', Cambria, Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	line-height: 20px;
+	list-style-type: disc;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	text-align: left;
+	text-decoration: none solid #41B7D8;
+}
+#blog .article li > a:hover {
+	text-decoration:underline;
+}
+#blog .article p {
+	font-family: 'Skolar Regular', 'Roboto Slab', 'Droid Serif', Cambria, Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	line-height: 27px;
+	margin-bottom: 0;
+	padding: 0 0 10px 0;
+}
+#blog .article .lt {
+	margin: 0;
+	padding:16px 0;
+	position: relative;
+	border-bottom: 5px solid #41B7D8;
+}
+#blog .article .lt > a {
+	-webkit-tap-highlight-color: rgba(229, 59, 44, 0.4);
+	background-image: linear-gradient(#E85C33, #E53A2B);
+	border-radius: 4px;
+	color: #fff;
+	cursor: auto;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	padding: 4px 8px;
+	text-decoration: none;
+}
+#blog .article .lt > a:hover {
+	background-image: linear-gradient(#E53A2B, #E85C33);
+}

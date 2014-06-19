@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+	color:#fff;
+}
+#home {
+	background: url(../img/bg01.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg01.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg01.jpg', sizingMethod='scale')";
+}
+.body_wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -75px; /* the bottom margin is the negative value of the footer's height */
+	max-width: 1000px;
+}
+#home header {
+height: 205px;
+overflow: hidden;
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+}
+header .center {
+	height:88px;
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+	text-align: center;
+	width:35em;
+	margin: 0 auto;
+}
+.center h1 {
+	color:#fff;
+	font-size: 5em;
+	margin-top: -12px;
+}
+.center .title {
+margin: 15px 0 0 0;
+font-size: 1.75em;
+}
+footer, .push {
+	height: 75px;
+}
+footer#home {
+	background-color: rgba(0, 0, 0, 0.55);
+	background: rgba(0, 0, 0, 0.55);
+}
+.footer_wrapper{
+	max-width: 1000px;
+	margin:0 auto;
+}
+.footer_wrapper li a {
+	color:#fff;
+	text-decoration: none;
+}
+.footer_wrapper li a:hover {
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+.footer_wrapper .social > a {
+	float:left;
+	padding:25px 25px 0 0;
+	margin:25px 15px 0 15px;
+}
+.social .facebook {
+	background: url(http://www.placehold.it/25x25/1d2c4c/ffffff);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+}
+.social .twitter {
+	background: url(http://www.placehold.it/25x25/005676/ffffff);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+}
+.social .linkedin {
+	background: url(http://www.placehold.it/25x25/003d5b/ffffff);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+}
+.social .facebook:hover {
+	background: url(http://www.placehold.it/25x25/3b5998/ffffff);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+}
+.social .twitter:hover {
+	background: url(http://www.placehold.it/25x25/00aced/ffffff);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+}
+.social .linkedin:hover {
+	background: url(http://www.placehold.it/25x25/007bb6/ffffff);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+}
+.footer_wrapper ul {
+list-style-type: none;
+float: right;
+}
+.footer_wrapper ul li {
+float: left;
+padding: 25px;
+}
+.footer_wrapper .copy {
+width: 155px;
+margin: 0px auto;
+padding: 45px 0 0 0;
+font-size: 0.8em;
+color: #4c4c4c;
+}

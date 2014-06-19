@@ -1,0 +1,24 @@
+ZachEngstrom.com Objectives
+
+By June 25th, 2014
+-Slice new design from ground up - 100% my code
+-Create 
+    -"About" page
+    -"Blog" page
+    -"Contact" page
+-Code and style using HTML5 and CSS3 as much as possible
+    -"About" page
+    -"Blog" page
+    -"Contact" page
+-Keep in mind:
+    -proper indentation
+	-proper syntax
+	-best practices
+-Try to finish design/slicing by date above
+
+By July 3rd, 2014 (Thursday)
+-Add JavaScript functionality where possible (whether it pertains to the profile site or not)
+	-Add front end validation to contact form
+-Add PHP functionality where possible (whether it pertains to the profile site or not)
+	-Make contact form functional
+	-Add back end validation to contact form

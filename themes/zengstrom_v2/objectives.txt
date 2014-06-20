@@ -12,13 +12,13 @@ By June 25th, 2014
     -"Contact" page
 -Keep in mind:
     -proper indentation
-	-proper syntax
-	-best practices
+    -proper syntax
+    -best practices
 -Try to finish design/slicing by date above
 
 By July 3rd, 2014 (Thursday)
 -Add JavaScript functionality where possible (whether it pertains to the profile site or not)
-	-Add front end validation to contact form
+    -Add front end validation to contact form
 -Add PHP functionality where possible (whether it pertains to the profile site or not)
-	-Make contact form functional
-	-Add back end validation to contact form
+    -Make contact form functional
+    -Add back end validation to contact form
